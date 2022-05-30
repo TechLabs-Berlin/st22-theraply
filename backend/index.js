@@ -1,14 +1,14 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const { v4: uuidv4 } = require('uuid');
+//const { v4: uuidv4 } = require('uuid');
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/theraply');
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '/views'));
 
-const homepage = app.use(express.static('home_page'))
+const homepage = app.use(express.static('../home page'))
 
 //example of the dataset of therapists. To be changed later.
 // const therapistArray = [
