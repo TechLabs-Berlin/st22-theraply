@@ -1,0 +1,18 @@
+Columns Name;Info
+Number;Number of therapists
+Name;Name of therapists
+Gender;Gender they identify with
+Personal Therapy;Whether they offer personal therapy, yes and no answer
+Group Therapy;Whether they offer group therapy, yes and no answer
+Language;Language spoken
+Type of Therapy;Type of psychotherapy they do
+Expertise;Topics/fields they are known for
+Type of Payment ;Type pf payment received
+Patient Type;Patients accepted by the therapists, adult or kids
+Address;address of the therapists' office
+Postal Code;postal code of the office
+Phone Number;phone number available for contact
+Email;email available for contact
+website;website of therapist/therapists office
+Call Availability;time reachability to receive calls
+Barrier free access;Whether the office have barrier free facilities, yes and no answer
