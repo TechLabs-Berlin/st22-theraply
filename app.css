@@ -1,0 +1,80 @@
+html {
+    background-color: #F5F5F5;
+}
+
+.mainbody {
+    padding: 10rem 20rem;
+}
+
+header {
+    overflow: hidden;
+    background-color: #B4F1F1;
+    padding: 50px 30px;
+}
+
+h1 {
+    color: #0C8F8F;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.login {
+    float: right;
+    background-color: #B4F1F1;
+    border-color: #0C8F8F;
+    color: #B4F1F1;
+    
+}
+
+.registration {
+    float: right;
+    background-color: #0C8F8F;
+    color: #F5F5F5;
+    margin-right: 3px;
+}
+
+nav {
+    display: inline;
+
+}
+
+nav a { 
+    color: #0C8F8F;
+    padding: 40rem 1rem;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+}
+
+p.text {
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    text-align: left;
+    color: #0C8F8F;
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.container .footer-pages a {
+    color: #0C8F8F;
+    justify-content: center;
+    margin: 5px;
+}
+
+.container .footer-right span {
+    font-weight: bold;
+}
+
+hr {
+    color: #0C8F8F;
+}
