@@ -1,42 +1,40 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+
+const Therapist = require('./models/therapistData.js')
+
 const mongoose = require('mongoose');
-
-const Therapist = require('./models/therapist.js');
-
-mongoose.connect('mongodb://localhost:27017/therapists', {useNewUrlParser: true})
-    .then(()=> {
-    console.log('Mongo CONNECTION OPEN')
+mongoose.connect('mongodb://localhost:27017/theraplyDB')
+    .then(()=>{
+        console.log('Mongo Connection Open')
     })
     .catch(err => {
-    console.log('Mongo Connection ERROR')
-    console.log(err)
+        console.log('Mongo connection error')
+        console.log(err)
     })
 
-const homepage = app.use(express.static('../home page'))
 
 //homepage
+const homepage = app.use(express.static('../home page'))
 app.get('/', (req, res) => {
     res.send(homepage)
+})   
+
+//list of therapists
+app.get('/therapists', async (req, res) => {
+    const allTherapists = await Therapist.find({});
+    res.render('allTherapists.ejs', {allTherapists});
 })
-//List of Therapists
-app.get('/therapists', async(req,res) => {
-    const therapists = await Therapist.find({});
-    console.log(therapists);
-    res.send('therapists')
+
+app.get('/therapists/:id', async (req, res) => {
+    const {id} = req.params;
+    therapistData = await Therapist.findById(id);
+    console.log(therapistData);
+    res.render('therapistPage.ejs', {therapistData});
 })
 
 app.listen(3000, () => {
     console.log('listening on port 3000')
 });
 
-
-
-
-// //therapist's sites
-// app.get('/therapists/:id', (req, res) => {
-//     const {id} = req.params;
-//     const thisTherapist = therapistArray.find(t => t.id === id);
-//     res.render('therapists', {thisTherapist:thisTherapist})
-// })
