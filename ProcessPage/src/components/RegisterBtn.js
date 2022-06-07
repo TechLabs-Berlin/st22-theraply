@@ -1,9 +1,10 @@
 import React from 'react';
+import './RegisterBtn.css';
 
 function RegisterBtn() {
     return (
         <div>
-        <button>Register</button>
+        <button className='regbtn'>Register</button>
         </div>
     )
 }

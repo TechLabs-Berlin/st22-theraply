@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+.nav {
+    padding: 1em;
+    border-bottom: 1.5px solid #0C8F8F;
+}
+
 li, a {
     text-decoration: none;
 }
@@ -19,8 +24,10 @@ li, a {
 
 .navlinks li a {
     transition: all 0.3s ease 0s;
+    color: #0C8F8F;
 }
 
 .navlinks li a:hover {
-    color: #0088a9;
+    color: #60e9e9;
 }
+

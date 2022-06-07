@@ -1,9 +1,10 @@
 import React from 'react';
+import './LoginBtn.css';
 
 function LoginBtn() {
     return (
         <div>
-        <button>Login</button>
+        <button className='logbtn'>Login</button>
         </div>
     )
 }

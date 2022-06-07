@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={placeholderImg} className="Header-image" alt="headerimage" />
+        <img src={placeholderImg} className="HeaderImg" alt="headerimage" />
         <RegisterBtn />
         <LoginBtn />
       </header>
