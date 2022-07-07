@@ -1,0 +1,20 @@
+.regbtn {
+    position: absolute;
+    top: 8.3%;
+    left: 75.5%;
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+    height: 30px;
+    width: 100px;
+    padding: 5px 25px;
+    color: #F8F8FF;
+    background-color: #FF7D34;
+    border: 0;
+    border-radius: 20px 20px 20px 0px;
+  }
+  
+  .regbtn:hover {
+    cursor: pointer;
+    background-color: #0E0E73;
+  }
+  

@@ -1,0 +1,30 @@
+.nav {
+    padding: 2em;
+    text-align: center;
+    border-bottom: none;
+}
+
+li {
+    text-align: center;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px 40px;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+    color: #0E0E73;
+}
+
+.navlinks li a:hover {
+    font-weight: 900;
+}
