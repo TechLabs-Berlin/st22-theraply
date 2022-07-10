@@ -94,6 +94,7 @@ app.get("/therapists/:id/email", async (req, res) => {
   res.json(therapistData.email);
 });
 
+
 app.listen(8800, () => {
   console.log("listening on port 8800");
 });
