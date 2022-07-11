@@ -1,22 +1,60 @@
+html {
+    background-color: #F5F5F5;
+}
+
+.mainbody {
+    padding: 10rem 20rem;
+}
+
 header {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #B4F1F1;
     padding: 50px 30px;
 }
 
 h1 {
-    color: black;
+    color: #0C8F8F;
     text-align: center;
     font-size: xx-large;
+    margin-left: 180px;
 }
 
-/*HELP! for the life of me I can't center the nav bar on the page!*/
+#login {
+    float: right;
+    background-color: #B4F1F1;
+    border-color: #0C8F8F;
+    color: teal;
+    margin-right: 5px;
+    margin-top: 0px;
+    border-radius: 15px;
+    width: 80px;
+    height: 50px;
+}
+
+#registration {
+    float: right;
+    background-color: #0C8F8F;
+    color: #F5F5F5;
+    margin-right: 5px;
+    margin-top: 0px;
+    border-radius: 15px;
+    width: 120px;
+    height: 50px;
+}
+
+#buttons {
+    margin-top: 0px;
+}
+
+nav {
+    margin-top: 20px;
+    display: inline;
+
+}
 
 nav a { 
-    justify-content: center;
-    color: black;
-    text-align: center;
-    padding: 20px;
+    color: #0C8F8F;
+    padding: 40rem 1rem;
     text-decoration: none;
     font-size: 18px;
     line-height: 25px;
@@ -25,66 +63,37 @@ nav a {
     height: 50px;
 }
 
-p {
-    flex: auto;
-    flex-direction: column;
+p.text {
+   clear: left;
+   margin-bottom: 100px;
+   font-size: small;
+}
+
+h2 {
+    text-align: left;
+    color: #0C8F8F;
+}
+
+img {
+    float: right;
+    max-width: 40%;
+    height: 40%;
+    padding-left: 20px;
+}
+
+
+.footer-pages a {
+    color: #0C8F8F;
     justify-content: center;
-    padding: 100px;
+    margin: 5px;
 }
 
-section.footer-theraply {
-    width: 100%;
-    display: inline-block;
-    background: #f1f1f1;
-    height: 50px;
-    padding: 40px;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 700;
+.footer-theraply {
+    margin-bottom: 100px;
 }
 
-footer .footer-left {
-    width: 33%;
-    display: inline-block;
-    vertical-align: top;
-    justify-content: left;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 5px;
+hr {
+    color: #0C8F8F;
 }
 
-footer a:link {
-    text-decoration: none;
-    color: black;
-}
 
-footer .footer-center {
-    width: 33%;
-    display: inline-block;
-	vertical-align: top;
-    justify-content: center;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 5px;
-}
-
-.footer-center p {
-    padding: 20px;
-}
-
-footer .footer-right {
-    width: 33%;
-    display: inline-block;
-	vertical-align: top;
-    justify-content: right;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 5px;
-}
-
-h3 {
-    text-align: center;
-}
