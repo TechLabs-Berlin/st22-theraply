@@ -1,0 +1,28 @@
+.footer {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2.5em;
+    text-align: center;
+}
+
+li, a {
+    text-decoration: none;
+}
+
+.footerlinks {
+    list-style: none;
+}
+
+.footerlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.footerlinks li a {
+    transition: all 0.3s ease 0s;
+    color: #0E0E73;
+}
+
+.footerlinks li a:hover {
+    font-weight: 900;
+}

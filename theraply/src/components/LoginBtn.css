@@ -1,0 +1,22 @@
+.logbtn {
+    /* position: absolute;
+    top: 320%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+    height: 30px;
+    width: 100px;
+    padding: 5px 25px;
+    color: #FF7D34;
+    background-color: #FFF9F3;
+    border: 1px solid #FF7D34;
+    border-radius: 25px 25px 25px 0px;
+  }
+
+  .logbtn:hover {
+    cursor: pointer;
+    color: #FFF9F3;
+    background-color: #0E0E73;
+    border: none;
+  }
+  

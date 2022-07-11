@@ -1,0 +1,13 @@
+.layout {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    background-image: url(../Background\ 2.png);
+}
+
+.App-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}

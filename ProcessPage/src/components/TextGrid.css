@@ -1,0 +1,41 @@
+.textGrid {
+    padding: 5% 20%;
+}
+
+h1 {
+    color: #0C8F8F;
+    text-align: start;
+    font-size: xx-large;
+    padding-top: 5%;
+}
+
+p {
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    color: #0C8F8F;
+    padding-top: 5%;
+}
+
+ul.textlist {
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    color: #0C8F8F;
+    padding: 5% 5%;
+}
+
+h2 {
+    text-align: start;
+    color: #0C8F8F;
+    padding-top: 5%;
+}
+
+.someImg {
+    width: 50%;
+    height: 60%;
+    padding: 5%;
+    position: relative;
+}
