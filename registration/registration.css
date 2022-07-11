@@ -1,0 +1,191 @@
+section {
+  width: 855px;
+  height: 655px;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  align-items: flex-start;
+  border-color: transparent;
+  border-radius: 8px;
+}
+body {
+  top: 0px;
+  left: 0px;
+  width: 855px;
+  height: 655px;
+  position: absolute;
+  box-sizing: border-box;
+  object-fit: cover;
+  border-color: rgba(208, 246, 246, 1);
+  border-style: solid;
+  border-width: 1.2px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#registration-button {
+  top: 551px;
+  left: 87px;
+  width: 156px;
+  height: 51px;
+  display: flex;
+  position: absolute;
+  box-sizing: border-box;
+  align-items: flex-start;
+  border-color: transparent;
+  color: azure;
+}
+
+#register {
+  top: 0px;
+  left: 0px;
+  width: 156px;
+  height: 51px;
+  position: absolute;
+  box-sizing: border-box;
+  object-fit: cover;
+  border-color: transparent;
+  border-radius: 8px;
+  background-color: teal;
+}
+
+.text-register {
+  top: 14px;
+  left: 41px;
+  color: azure;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 500px;
+}
+
+div {
+  top: 0px;
+  left: 0px;
+  width: 326px;
+  height: 59px;
+  position: absolute;
+  box-sizing: border-box;
+  object-fit: cover;
+  border-color: rgba(111, 205, 205, 1);
+  border-style: solid;
+  border-width: 1.2px;
+  border-radius: 7px;
+  background-color: azure;
+}
+
+.registration-name {
+  top: 152px;
+  left: 441px;
+  width: 326px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+}
+
+.registration-mail {
+  top: 306px;
+  left: 87px;
+  width: 679px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+}
+
+.text {
+  top: 11px;
+  left: 19px;
+  color: teal;
+  width: 307px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: 24px;
+  font-stretch: normal;
+}
+
+
+input {
+  top: 0px;
+  left: 0px;
+  width: 679px;
+  height: 59px;
+  position: absolute;
+  box-sizing: border-box;
+  object-fit: cover;
+  border-color: rgba(111, 205, 205, 1);
+  border-style: solid;
+  border-width: 1.2px;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#registration-repeat {
+  top: 462px;
+  left: 87px;
+  width: 679px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+}
+.registration-repeat {
+  top: 0px;
+  left: 0px;
+  width: 679px;
+  height: 59px;
+  position: absolute;
+  box-sizing: border-box;
+  object-fit: cover;
+  border-color: rgba(111, 205, 205, 1);
+  border-style: solid;
+  border-width: 1.2000000476837158px;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#registration-button {
+  top: 80px;
+  left: 202px;
+  width: 158px;
+  height: 56px;
+  position: absolute;
+  box-sizing: border-box;
+  object-fit: cover;
+  border-color: transparent;
+  border-radius: 20px 20px 0 0;
+  background-color: teal;
+}
+
+#button-login {
+  top: 80px;
+  left: 88px;
+  width: 114px;
+  height: 56px;
+  position: absolute;
+  box-sizing: border-box;
+  object-fit: cover;
+  border-color: transparent;
+  border-radius: 0 20px;
+  background-color: rgb(162, 249, 249);
+}

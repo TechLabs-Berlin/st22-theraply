@@ -1,0 +1,246 @@
+.form-wrapper {
+    top: 25px;
+    left: 350px;
+    width: 855px;
+    height: 655px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: rgba(208, 246, 246, 1);
+    border-style: solid;
+    border-width: 1.2px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.container {
+    width: 855px;
+    height: 655px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: flex-start;
+    border-color: transparent;
+    border-radius: 8px;
+}
+
+.firstname .lastname {
+    top: 152px;
+    left: 441px;
+    width: 326px;
+    height: 59px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+}
+
+#firstname {
+    top: 200px;
+    left: 40px;
+    width: 326px;
+    height: 59px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: rgba(111, 205, 205, 1);
+    border-style: solid;
+    border-width: 1.2px;
+    border-radius: 7px;
+    background-color: azure;
+}
+
+#lastname {
+    top: 200px;
+    left: 380px;
+    width: 326px;
+    height: 59px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: rgba(111, 205, 205, 1);
+    border-style: solid;
+    border-width: 1.2px;
+    border-radius: 7px;
+    background-color: azure;
+}
+
+
+.register {
+    top: 551px;
+    left: 87px;
+    width: 156px;
+    height: 51px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+    border-radius: 8px;
+    background-color: teal;
+    color: azure;
+    display: flex;
+    align-items: flex-start;
+    font-size: medium;
+    text-align: right;
+}
+
+/*
+.registertext {
+    top: 14px;
+    left: 100px;
+    color: azure;
+    height: auto;
+    position: center;
+    font-size: medium;
+    align-self: center;
+    font-style: normal;
+    text-align: center;
+    font-weight: 500px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}*/
+
+.telephone {
+    top: 270px;
+    left: 87px;
+    width: 670px;
+    height: 59px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+}
+
+#telephone {
+    top: 0px;
+    left: -46px;
+    width: 670px;
+    height: 59px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: rgba(111, 205, 205, 1);
+    border-style: solid;
+    border-width: 1.2px;
+    border-radius: 7px;
+    background-color: azure;
+}
+
+.mail {
+    top: 340px;
+    left: 87px;
+    width: 670px;
+    height: 59px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+}
+
+#mail {
+    top: 0px;
+    left: -46px;
+    width: 670px;
+    height: 59px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: rgba(111, 205, 205, 1);
+    border-style: solid;
+    border-width: 1.2px;
+    border-radius: 7px;
+    background-color: azure;
+}
+
+.password {
+    top: 410px;
+    left: 87px;
+    width: 670px;
+    height: 59px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+}
+
+#password {
+    top: 0px;
+    left: -46px;
+    width: 670px;
+    height: 59px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: rgba(111, 205, 205, 1);
+    border-style: solid;
+    border-width: 1.2px;
+    border-radius: 7px;
+    background-color: azure;
+}
+
+.repeat {
+    top: 480px;
+    left: 87px;
+    width: 670px;
+    height: 59px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+}
+
+#repeat {
+    top: 0px;
+    left: -46px;
+    width: 670px;
+    height: 59px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: rgba(111, 205, 205, 1);
+    border-style: solid;
+    border-width: 1.2px;
+    border-radius: 7px;
+    background-color: azure;
+}
+
+.registration {
+    top: 80px;
+    left: 150px;
+    width: 158px;
+    height: 56px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+    border-radius: 20px 20px 0 0;
+    background-color: teal;
+    color: azure;
+    font-size: medium;
+  }
+
+  .login  {
+    top: 80px;
+    left: 40px;
+    width: 114px;
+    height: 56px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+    border-radius: 0 20px;
+    background-color: rgb(162, 249, 249);
+    color: teal;
+    font-size: medium;
+  }
