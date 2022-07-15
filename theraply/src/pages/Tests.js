@@ -1,9 +1,14 @@
 import React from "react";
+import TestsList from "../components/TestsList";
 
 function Tests() {
     return (
-        <h1>TESTS</h1>
+        <div>
+            <TestsList />
+        </div>
     );
-  }
-  
-  export default Tests;
+
+}
+
+
+export default Tests;

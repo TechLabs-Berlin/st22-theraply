@@ -1,7 +1,7 @@
 .footer {
     box-sizing: border-box;
     margin: 0;
-    padding: 2.5em;
+    padding: 3em;
     text-align: center;
 }
 
@@ -11,6 +11,7 @@ li, a {
 
 .footerlinks {
     list-style: none;
+    font-family: 'Hind', sans-serif;
 }
 
 .footerlinks li {
@@ -25,4 +26,8 @@ li, a {
 
 .footerlinks li a:hover {
     font-weight: 900;
+}
+
+hr {
+    margin: 15px; 
 }

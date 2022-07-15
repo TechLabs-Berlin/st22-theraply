@@ -1,11 +1,10 @@
 import React from 'react';
-import placeholderImg from '../placeholder-image.png';
-import './TextGrid.css';
+
 
 function TextGrid() {
-    return (
-        <div className='textGrid'>
-            <h1>The Process explained</h1>
+    return <div className='textGrid'>
+        <h1>The Process explained</h1>
+        <div className="bodyText">
             <div className='TBox0'>
                 Theraply is a platform that aims to simplify the search for a suitable therapist. Many people simply aren’t fortunate enough to be able to pay privately for therapy. This post will attempt to break down the process of finding a therapist through your public health insurance.
                 It’s quite unique for Germany that the public health insurance will cover the costs of psychotherapy. Unfortunately, finding a therapist who speaks English and can be covered by your insurance can be so difficult that it leaves people seeking therapy both confused and distressed. That’s why we’ve distilled the notoriously kafkaesque process into 5 steps.
@@ -44,7 +43,7 @@ function TextGrid() {
                 The benefits of self-payment as opposed to therapy covered by the health insurance provider is therefore that you can choose freely which therapeutic method you prefer and how long the process should last. Of course less bureaucracy and anonymity, in the sense that no documentation of personal data and diagnoses are given to official administrations, are clear advantages as well.
             </div>
         </div>
-    )
+    </div>
 }
 
 export default TextGrid;

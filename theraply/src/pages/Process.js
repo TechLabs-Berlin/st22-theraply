@@ -1,8 +1,11 @@
 import React from "react";
+import TextGrid from "../components/TextGrid";
 
 function Process() {
     return (
-        <h1>PROCESS</h1>
+        <div>
+            <TextGrid />
+        </div>
     );
 }
 

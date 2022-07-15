@@ -6,6 +6,7 @@ function Footer() {
     return (
         <div>
             <nav className="footer">
+                <hr></hr>
                 <ul className="footerlinks">
                     <li className="footerItem"><NavLink to="/">Theraply</NavLink></li>
                     <li className="footerItem"><NavLink to="/process">Berlin TechLabs</NavLink></li>
