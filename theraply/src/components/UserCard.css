@@ -1,0 +1,80 @@
+.card {
+    margin: 2rem 2rem 2rem 0;
+    padding: 1.5rem;
+    width: 250px;
+    box-shadow: 0 0 28px 4px rgba(0,0,0,0.1 );
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-title {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+}
+
+.card-image img {
+    border-radius: 50%;
+}
+
+.location {
+    margin: 1rem 0;
+}
+
+.location p {
+    margin: 0;
+}
+
+.phone {
+    font-style: italic;
+    font-size: .8rem;
+    margin: 0;
+}
+
+
+/* .container {
+    width: 230px;
+    height: 500px;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff9f313;
+    border: 1px solid rgb(176, 175, 175);
+}
+
+.editbtn{
+    height: 30px;
+    width: 70px;
+    padding: 5px 25px;
+    color: #0E0E73;
+    background-color: #FFF9F3;
+    border: none;
+    border-radius: 25px 25px 25px 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.profileimg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.card-body{
+    color: #FF7D34;
+}
+
+.process{
+    color: #FF7D34;
+}
+
+
+
+ */

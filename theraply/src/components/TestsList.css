@@ -1,0 +1,45 @@
+.introText {
+    padding: 00px 45px;
+    margin: 0;
+}
+
+.linkListContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    font-style: 'Hind', sans-serif;
+    font-weight: 600;
+    color: #0E0E73;
+    max-width: 70%;
+    padding: 50px 0px;
+}
+
+.linkList  {
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 35px;
+}
+
+.outerLi{
+    padding: 0 0 0 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 75px;
+    margin-right: 0px;
+    text-align: left;
+}
+
+.innerLi{
+    font-weight: 400;
+    text-decoration: underline #0E0E73;
+    list-style: none;
+    padding: 0 0 0 0px;
+    margin-top: 10px;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.innerLi a{
+    color: #0E0E73;
+}
+    

@@ -1,0 +1,15 @@
+.logbtn {
+    position: absolute;
+    top: 15%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    height: 30px;
+    width: 100px;
+    padding: 5px 25px;
+    color: #0C8F8F;
+    background-color: #aae3e3;
+    border: 1px solid #0C8F8F;
+    border-radius: 5px;
+  }
+  

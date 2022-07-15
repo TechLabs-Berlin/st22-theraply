@@ -1,0 +1,90 @@
+.container {
+    width: 350px;
+    height: 390px;
+    margin: 0px;
+    padding: 50px;
+    padding-top: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(245, 245, 245);
+    text-align: start;
+    border-radius: 8px;
+    border: 1px solid rgb(176, 175, 175);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 15px 15px;
+    padding: 10px 0px;
+    background-color: rgba(255, 249, 243, 0.95);
+    color:#FF7D34;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 15px 15px 15px 0;
+}
+
+
+label {
+    margin: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0E0E73;
+}
+
+.container input[type="text"], .container input[type="email"], .container input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: start;
+    border: 1px solid lightgrey;
+    padding: 12px 10px;
+    width: 300px;
+    outline: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.container input[type="text"]:focus, .container input[type="email"]:focus, .container input[type="password"]:focus {
+    border-color: grey;
+}
+
+.submit {
+    border: 0;
+    background-color: #FF7D34;
+    font-weight: 700;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 10px;
+    width: 325px;
+    outline: none;
+    color: rgba(255, 249, 243, 0.95);
+    border-radius: 15px 15px 15px 0;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: #0E0E73;
+
+}
+
+.alreadyregistered {
+    text-align: end;
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+
+.alreadyregistered a {
+    color: #0E0E73;
+}
+
+.forgotpassword a {
+    color: #0E0E73;
+    font-size: 12px;
+    margin: 20px;
+}
