@@ -1,20 +1,56 @@
-.introText {
+.textGrid li {
+    text-align: left;
+}
+
+.introContainer {
     padding: 00px 45px;
     margin: 0;
 }
 
-.bodyText {
+.bodyContainer {
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    color: #0E0E73;
     padding: 00px 45px;
     padding-top: 20px;
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 .bodyImage {
-    padding: 00px 45px;
-    padding-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin: 0;
+}
+
+.bodyImage image {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.imgh {
+    height: 400px;
+    padding-bottom: 0;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+
+.imgod {
+    padding-top: 0;
+    height: 500px;
+}
+
+.imgt {
+    height: 450px;
+    padding-left: 60px;
+}
+
+.imglb {
+    height: 450px;
+    padding-left: 50px;
 }
 
 .TBspan {
@@ -24,14 +60,18 @@
     font-size: 20px;
 }
 
+.bottomContainer {
+    padding: 00px 45px;
+    padding-top: 120px;
+    margin: 0;
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    color: #0E0E73;
+}
+
 .TBox5 li {
     font-family: 'Lobster', cursive;
     font-style: bold;
     font-weight: 400;
     font-size: 20px;
 }
-
-/* li {
-    text-align: left;
-} */
-

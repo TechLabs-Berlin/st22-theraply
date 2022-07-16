@@ -5,14 +5,16 @@ import './TextGrid.css';
 function TextGrid() {
     return <div className='textGrid'>
         <h1>The Process explained</h1>
-        <div className='introText'>
+        <div className='introContainer'>
             <p>
                 Theraply is a platform that aims to simplify the search for a suitable therapist. Many people simply aren’t fortunate enough to be able to pay privately for therapy. This post will attempt to break down the process of finding a therapist through your public health insurance.
                 It’s quite unique for Germany that the public health insurance will cover the costs of psychotherapy. Unfortunately, finding a therapist who speaks English and can be covered by your insurance can be so difficult that it leaves people seeking therapy both confused and distressed. That’s why we’ve distilled the notoriously kafkaesque process into 5 steps.
             </p>
         </div>
-        <div className='bodyText'>
+        <div className='bodyContainer'>
             <div className='TBox1'>
+                <br></br>
+                <br></br>
                 <ul>
                     <li>
                         <span className='TBspan'>First step:</span> clearly the most difficult, because where do you start your search for a fitting psychotherapist who speaks your language? You can consult your GP (in German called Hausarzt), search the internet by going through the list on KV Berlin (choose “Für Patienten” then “Arzt- und Psychotherapeutensuche” and choose English in the box “Fremdsprachen”) or PsychInfo, or your specific insurance might have a list of approved psychotherapists.
@@ -20,10 +22,10 @@ function TextGrid() {
                 </ul>
             </div>
             <div className='bodyImage'>
-                <image src="../images/Imgfb">IMAGE1</image>
+                <img className="imgh" src="images/Imgh.png" alt="" />
             </div>
             <div className='bodyImage'>
-                <image>IMAGE2</image>
+                <img className="imgod" src="images/Imgod.png" alt="" />
             </div>
             <div className='TBox2'>
                 <ul>
@@ -45,10 +47,10 @@ function TextGrid() {
                 </ul>
             </div>
             <div className='bodyImage'>
-                <image>IMAGE3</image>
+                <img className="imgt" src="images/Imgt.png" alt="" />
             </div>
             <div className='bodyImage'>
-                <image>IMAGE4</image>
+                <img className="imglb" src="images/Imglb.png" alt="" />
             </div>
             <div className='TBox4'>
                 <ul>
@@ -58,7 +60,7 @@ function TextGrid() {
                 </ul>
             </div>
         </div>
-        <div className='bottomText'>
+        <div className='bottomContainer'>
             <div className='TBox5'>
                 <ul>
                     <li>
