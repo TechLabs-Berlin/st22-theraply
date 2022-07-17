@@ -37,10 +37,16 @@ Back to brainstorming, ideas and sketches for the first basic wireframes on pape
 
 ### The new design
 
-Moving to the final UI development brought with itself a new and different level of obstacles and headaches. Brainstorming colors, design ideas, shapes, illustrations, fonts, misunderstandings, different tastes, wash, rinse repeat..
-We kept calm (kinda) and carried on (for sure) with loads of coffee on our side. Slowly but steadily it started getting in shape. Throughout the process, it was possible to experiment with new functions, tools, ideas and designs. In general it was all very interesting and with a lot of learning, and some more headaches when you think you finished, you try it and on the second run 3 things stopped working.
+Moving to the final UI development brought with itself a new and different level of obstacles and headaches. Brainstorming colours, design ideas, shapes, illustrations, fonts, misunderstandings, different tastes, wash, rinse repeat..
+We kept calm (kinda) and carried on (for sure) with loads of coffee on our side. Slowly but steadily it started getting shape. Throughout the process, it was possible to experiment with new functions, tools, ideas and designs. In general it was all very interesting and with a lot of learning, and some more headaches when you think you finished, you try it and on the second run 3 things stopped working.
 
-We run some user tests with our prototype in Figma. Some adjustments have been made, improving it. Also with advice from our mentor and track leader we were able to improve some things. We find it interesting how one "issue" helps to develop the other, in the sense of giving us a vision of what we are creating and understanding it. As well as the opinion and advice of the users helped us  review what can be improved or modified. Even asking ourselves why we did it this way. It was very interesting to see everything connecting and our project taking shape. And finally, see our finished project.
+### Testing and Adjusting
+
+We run some user tests with our prototype in Figma. This was a little awkward for the users because of some “unnatural” behaviour of the program, (unnatural for a web page) when many interactions are present in one page. i.e. after using the search the user need to click again to close the interaction to move to the next, while in an actual webpage the interactions flow. 
+Following the test evaluation, some adjustments have been made, correcting on parts that without testing  probably wouldn’t have been noticed, for example some parts of the text were too small, even in bigger screens, the menu “Tests” wasn’t as self explanatory as thought, we went therefore with “Psychological Tests”. 
+With the advice from our mentor and track leader we were also able to improve some things. 
+
+We found interesting how one "issue"  sometimes helps correcting another, giving us a vision of what we are creating and understanding it. Likewise the opinion and advice of the users helped us  review what can be improved or modified. Even asking ourselves why we did it this way.
 
 ## others
 please add your content here
