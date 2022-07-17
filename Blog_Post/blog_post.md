@@ -34,8 +34,7 @@ The personas, storyboards and scenarios were thought of and created after this e
 ### Wireframing
 
 Back to brainstorming, ideas and sketches for the first basic wireframes on paper, which we then presented to the rest of the Team to give a quick idea of the direction we were going to take.The webpage will follow a hierarchical IA model, which felt the most appropriate for our webpage. 
- Following the first low fidelity wireframes, we moved to Figma to create a mid fidelity wireframe, with further development of what were our first ideas on paper and some modifications. Once finished with the basics we started creating all the animated interactions and went through a lot of frustrations, videos, trial and error, headaches, more frustrations and solutions. Doing this on the mid fidelity wireframe proved to be a terrific choice, helping us move to the next step and in many instances facilitating our work in the next step.
-
+ Following the first low fidelity wireframes, we moved to Figma to create a mid fidelity wireframe, with further development of what were our first ideas on paper and some modifications. Once finished with the basics we started creating all the animated interactions and went through a lot of frustrations, videos, trial and error, headaches, more frustrations and solutions. Doing this on the mid fidelity wireframe proved to be a terrific choice, helping us move to the next step and in many instances facilitating our work during the development of our end design.
 ### The new design
 
 Moving to the final UI development, brought with itself a new and different level of obstacles and headaches. Brainstorming colours, design ideas, shapes, illustrations, fonts, misunderstandings, different tastes, wash, rinse repeat..
