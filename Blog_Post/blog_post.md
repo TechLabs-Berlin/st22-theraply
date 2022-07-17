@@ -1,4 +1,4 @@
-# Blog post for Theraply project Techlabs
+# Theraply 
 
 ## UX role
 
