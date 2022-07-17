@@ -1,4 +1,4 @@
-# Theraply 
+![](2022-07-17-20-45-28.png)
 
 ## UX role
 
@@ -20,7 +20,7 @@ The Core Functionalities are:
 
 ### The UX Process
 
-The UX process started with the user research. Following the competition analysis and the interviews we had a clear view of who our "target audience" is and what the most important "issues" to be addressed were. 
+The UX process started with the user research. Following the competition analysis and the interviews we had a clear view of who our "target audience" is and whichgit add. the most important "issues" to be addressed were. 
 
 Users can be summed up on average to 3 types: 
 
@@ -46,7 +46,8 @@ We run some user tests with our prototype in Figma. This was a little awkward fo
 Following the test evaluation, some adjustments have been made, correcting on parts that without testing  probably wouldn’t have been noticed, for example some parts of the text were too small, even in bigger screens, the menu “Tests” wasn’t as self explanatory as thought, we went therefore with “Psychological Tests”. 
 With the advice from our mentor and track leader we were also able to improve some things. 
 
-We found interesting how one "issue"  sometimes helps correcting another, giving us a vision of what we are creating and understanding it. Likewise the opinion and advice of the users helped us  review what can be improved or modified. Even asking ourselves why we did it this way.
+We found interesting how one "issue" sometimes helps correcting another, giving us a vision of what we are creating and understanding it. Likewise the opinion and advice of the users helped us review what can be improved or modified. Even asking ourselves why we did it this way. 
+It was very interesting to see everything connecting and taking shape. And finally, see our finished project.
 
 ## others
 please add your content here
