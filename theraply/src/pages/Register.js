@@ -1,9 +1,12 @@
 import React from "react";
+import RegForm from "../components/RegForm";
 
 function Register() {
     return (
-        <h1>REGISTER</h1>
+        <div>
+            <RegForm />
+        </div>
     );
-  }
-  
-  export default Register;
+}
+
+export default Register;
