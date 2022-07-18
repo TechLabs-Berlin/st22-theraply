@@ -1,6 +1,6 @@
 ![Theralpy_logo](./pictures/Theraply_logo.png)
 
-## UX role
+## UX track
 
 ### The Idea
 
@@ -38,6 +38,7 @@ Following the first low fidelity wireframes, we moved to Figma to create a mid f
 
 ![Wireframe_med_fidelity_homepage](pictures/wireframe_med_fidelity_homepage.png)
 ![Wireframe_med_fidelity_searchpage](pictures/med_fidelity_searchpage.png)
+
 
 ### The new design
 ![illustration_design](pictures/ilustration%20how.png)
