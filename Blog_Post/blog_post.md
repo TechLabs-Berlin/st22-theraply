@@ -1,4 +1,4 @@
-<img src="pictures/Theraply_logo.png" width="400">
+<img src="pictures/Theraply_logo.png" width="700">
 
 ## UX role
 
