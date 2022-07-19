@@ -1,15 +1,3 @@
 # SUMMARY
 
-alphabetical order - please add here your own summary
-
-## ADRIAN 
-
-## CELINE
-
-## JULIA
-
-## KÜBRA
-
-## STEFANO
-
-## TIKA
+Theraply is a full-stack application aimed at simplifying the process of finding a therapy place and supporting patients on their path by tackling common pain points faced by patients on their journey. These pain points include but are not limited to the insufficient knowledge about the process, it’s complexity and multi-layeredness and, finally, it’s lengthiness. Theraply aims to ease these challenges by offering a single point of information with a clear overview of the process, guiding and motivating users through the steps entailed through the use of gamification features and by providing a way to easily find and contact suitable therapists through the use of filters, ratings and pre-filled contact-forms and finally, by allowing users to keep track of contact inquiries and responses.
