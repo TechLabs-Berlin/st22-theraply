@@ -11,7 +11,9 @@ class Search extends React.Component {
             parms: { query: term },
         });
 
-        this.setState({ therapists: response.data.results });
+        console.log(response.data.results)
+
+        this.setState({ therapists: response.data });
     }
 
 
