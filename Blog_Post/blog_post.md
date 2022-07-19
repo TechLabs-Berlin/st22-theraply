@@ -84,18 +84,21 @@ It was very exciting to see everything connecting and taking shape and finally, 
 ## others
 please add your content here
 
-### Frontend Track 
+## Frontend Track 
 
-## Kübra
+### Kübra
 
 During the project phase, I realized two crucial things, it is wildly different to code along or to code on your own, and also that it is deeply satisfying to be able to do so. Seeing the project slowly come alive was a thrilling experience. Also, I learned that coding takes time. 
 
 “Oh, a simple button surely won’t take long right? Wrong!”
 
- Sometimes I was shocked about the amount of time it took me to solve a seemingly easy task. 
+<img src="pictures/progress of registration.png" width="500"> 
+
+Sometimes I was shocked about the amount of time it took me to solve a seemingly easy task. 
 While working on the frontend code I heavily focused on the UI, trying desperately to make everything look like our designers have imagined them. I am a very visual person and I truly enjoy beautiful design, so I was quite driven to match everything to a tea. By doing so I failed to consider that the page actually needs to function as well. That arguably obvious fact took me almost an embarrassing time to realize. 
 At the same time, with almost a childlike glee, I saw that step by step I was able to perform tasks and the code with more comfort plus a plan of what I wanted to do. 
 I mainly was responsible for creating the registration form and also the home page/landing page. I wished I would have been able to accomplish more in the time given to us. If I learned anything I would like to pick up the pace in which I make progress and also be able to research quicker and better solutions for the challenges I face during coding. I also struggled with creating responsive sites and I definitely feel like that’s an aspect that is still lacking in my code. 
 If anything, the whole project motivates me to keep learning and growing as a beginner coder. Despite the challenges I faced during the project I was also immensely grateful for our team. I experienced the communication as quick, transparent, and direct in a respectful and kind way. I think everybody did great work and I’m truly inspired by seeing the growth and drive of everyone involved! Additionally, I was thankful for our mentor Nik as well. I had the impression that I was able to gain insight into what working in the tech world would look like and how to organize ourselves. Of course, the feedback was helpful too!
 Overall, I’m glad that I was able to take the course at TechLabs Berlin. :) 
 
+<img src="pictures/progression of the landing page.png" width="500"> 
