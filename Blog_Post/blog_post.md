@@ -94,6 +94,8 @@ During the project phase, I realized two crucial things, it is wildly different 
 
 <img src="pictures/progress of registration.png" width="500"> 
 
+##### Progess of the registration form
+
 Sometimes I was shocked about the amount of time it took me to solve a seemingly easy task. 
 While working on the frontend code I heavily focused on the UI, trying desperately to make everything look like our designers have imagined them. I am a very visual person and I truly enjoy beautiful design, so I was quite driven to match everything to a tea. By doing so I failed to consider that the page actually needs to function as well. That arguably obvious fact took me almost an embarrassing time to realize. 
 At the same time, with almost a childlike glee, I saw that step by step I was able to perform tasks and the code with more comfort plus a plan of what I wanted to do. 
@@ -102,3 +104,5 @@ If anything, the whole project motivates me to keep learning and growing as a be
 Overall, I’m glad that I was able to take the course at TechLabs Berlin. :) 
 
 <img src="pictures/progression of the landing page.png" width="500"> 
+
+##### Progress of the landing page
