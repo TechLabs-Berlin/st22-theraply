@@ -17,10 +17,12 @@ class Search extends React.Component {
 
     render() {
         return (
-            <div className='ui container'>
-                <SearchComponent onSubmit={this.onSearchSubmit} />
-                Found: {this.state.therapists.length} Therapists.
-                <TherapistsList therapists={this.state.therapists} />
+            <div className='searchContainer'>
+                <div className="components">
+                    <SearchComponent onSubmit={this.onSearchSubmit} />
+                    Found: {this.state.therapists.length} Therapists.
+                    <TherapistsList therapists={this.state.therapists} />
+                </div>
             </div>
         )
     }

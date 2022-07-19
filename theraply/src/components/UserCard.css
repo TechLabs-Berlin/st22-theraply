@@ -1,80 +1,113 @@
-.card {
-    margin: 2rem 2rem 2rem 0;
-    padding: 1.5rem;
-    width: 250px;
-    box-shadow: 0 0 28px 4px rgba(0,0,0,0.1 );
-    transition: transform .3s ease;
-    cursor: pointer;
+.userCard {
+  margin: 2rem 2rem 2rem 0;
+  padding: 1.5rem;
+  width: 250px;
+  height: 600px;
+  box-shadow: 0 0 28px 4px rgba(0,0,0,0.1 );
+  transition: transform .3s ease;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  top: 2%;
+  left: 12%;
 }
 
-.card:hover {
-    transform: scale(1.1);
+.userCard:hover {
+  transform: scale(1.1);
+}
+
+.card-header button {
+    background: #FFF9F3;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 10px 0px;
+    box-sizing: border-box;
+    height: 25px;
+    width: 60px;
+    padding: 3px 15px;
+    color: #0E0E73;
+    font-weight: 500;
+    border: none;
+    position: absolute;
+    top: 20px;
+    left: 220px;
+    
+}
+
+.card-header button:hover {
+    cursor: pointer;
+    background-color: #0E0E73;
+    color:  #FFF9F3;
 }
 
 .card-title {
-    font-weight: 800;
-    font-size: 1.5rem;
+  font-weight: 800;
+  font-size: 1.5rem;
 }
 
 .card-image {
-    display: flex;
-    justify-content: center;
+  justify-content: center;
+  position: absolute;
+  top: 75px;
+  left: 75px;
 }
 
 .card-image img {
-    border-radius: 50%;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
 
-.location {
-    margin: 1rem 0;
+.userName {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF7D34;
+    position: absolute;
+    top: 240px;
+    left: 100px;
 }
 
-.location p {
-    margin: 0;
+.card-body {
+    position: absolute;
+    top: 300px;
+    left: 80px;
+}
+
+
+.userConact h3 {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    color: #0E0E73;
+}
+
+.userPhone {
+    color: #0E0E73;
+}
+
+.userMail {
+    color: #0E0E73;
+}
+
+.userProgress h3 {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    color: #0E0E73;
 }
 
 .phone {
-    font-style: italic;
-    font-size: .8rem;
-    margin: 0;
+  font-style: italic;
+  font-size: .8rem;
+  margin: 0;
 }
 
-
-/* .container {
-    width: 230px;
-    height: 500px;
-    margin: 40px;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #fff9f313;
-    border: 1px solid rgb(176, 175, 175);
+.progressBar {
+  position: absolute;
+  top: 180px;
+  left: -50px;
 }
-
-.editbtn{
-    height: 30px;
-    width: 70px;
-    padding: 5px 25px;
-    color: #0E0E73;
-    background-color: #FFF9F3;
-    border: none;
-    border-radius: 25px 25px 25px 0px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-}
-
-.profileimg {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
-
-.card-body{
-    color: #FF7D34;
-}
-
-.process{
-    color: #FF7D34;
-}
-
-
-
- */
+  
