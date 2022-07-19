@@ -39,7 +39,8 @@ Following the first low fidelity wireframes, we moved to Figma to create a mid f
 
 | <img src="pictures/wireframe_med_fidelity_homepage.png" width="500"> | <img src="pictures/med_fidelity_searchpage.png" width="500"> |
 | - | - | 
-######Mid fidelity wireframes of the homepage and the search page
+
+###### Mid fidelity wireframes of the homepage and the search page
 
 
 
@@ -62,7 +63,9 @@ We kept calm (kinda) and carried on (for sure) with loads of coffee on our side.
 <img src="pictures/Home%20Page%20-%20registered.png" width="500">
 
 <img src="pictures/newdesign_searchpage.png" width="500">
+
 ###### Final home page and search page design
+
 
 ### Testing and Adjusting
 
@@ -72,7 +75,8 @@ With the advice from our mentor and track leader we were also able to improve so
 
 | <img src="pictures/wireframe_profile_page_2.jpeg" width="500"> |  <img src="pictures/Wireframe_Profilepage_new.png" width="500"> |
 | - | - |
-######Profile page before and after
+
+###### Profile page before and after
 
 We found it interesting that working on one issue all of a sudden presented another one to solve,  a new insight of what we were creating  which wasn't there before emerged, which helped us understand how to procede. Likewise the opinion and advice of the users helped us determine what can be improved or modified. All of this got us wondering at a certain point why did we even do it this way. 
 It was very exciting to see everything connecting and taking shape and finally, see our finished project.
