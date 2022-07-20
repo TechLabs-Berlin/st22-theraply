@@ -83,8 +83,11 @@ With the advice from our mentor and track leader we were also able to improve so
 We found it interesting that working on one issue all of a sudden presented another one to solve,  a new insight of what we were creating  which wasn't there before emerged, which helped us understand how to procede. Likewise the opinion and advice of the users helped us determine what can be improved or modified. All of this got us wondering at a certain point why did we even do it this way. 
 It was very exciting to see everything connecting and taking shape and finally, see our finished project.
 
-## others
-please add your content here
+## Backend
+For backend development, the goals were set clearly from the beginning. The backend had to run a server from which then the frontend team’s React build could be served. In addition, a database containing the therapist data had to be created and filled to which the frontend would be able to talk and receive the necessary information. 
+To run a server an index.js file was created from which a server was hosted on port localhost:8800 from which the React build was being served.
+Using MongoDB and a CSV file provided by our Data scientist, a database was created and filled using the seeds.js file. Within the index.js file APIs were created that could be queried to return information about the therapists.
+
 
 ## Frontend Track 
 We were excited to start off the project work as soon as possible and to dive into the coding process. Based on the wireframes from the UX part of our team, we started coding our very first pages of this project and were excited and looking forward to see things come to life but also humbled by the task ahead.
