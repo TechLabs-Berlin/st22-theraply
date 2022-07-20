@@ -107,3 +107,15 @@ Overall, I’m glad that I was able to take the course at TechLabs Berlin. :)
 <img src="pictures/progression of the landing page.png" width="500"> 
 
 ##### Progress of the landing page
+
+Tika - DS
+
+In the middle of the hectic last minutes of fixing and revising the data science part of our project, I took time today to sit down for a bit and reflect on the last four months. Time runs so fast, that without fully realizing it, it is now almost the end of the semester. I enjoyed the chill and self-paced, self-study periods when I was so awed by how new everything to me was. Learning Python was (and is!) like learning a new language and a new mindset, it opens up a whole different world to me, that I never really knew before. I have always been more of a humanities and social sciences person. 
+
+Not long after finishing the last few modules of the DS track, then came the project phase, and to me, it felt so different from self-study. It gave me more freedom and room for creativity, but at the same time also way more challenging, hectic, and somewhat lonely. The hard part was not really about who should I ask for help, because people are helpful at Techlabs, but which questions I should ask. It was confusing enough, and sometimes I felt lost in my own problems, though the mentor and the weekly meetings with my teammates helped tremendously. I still have huge insecurity when it comes to my work so far, but now I kind of starting to accept that it is the way people learn and keep on learning how to code and program: by making a lot of mistakes and plan Bs.
+
+There were things that I had initially planned for our app but didn’t finalize at the end, however, on the other hand, there were also a lot of plan Bs, and many new ideas that came up during the bittersweet moments of working together with the group on Theraply. The idea I had in mind was to look for a dataset related to therapists in Berlin, like a useful list of therapists, metadata of people who are looking for therapy, and so on. However, it was impossible to find open public datasets that are relevant, so I had to generate my own dataset for the backbone of Theraply from scraping here and there. I also had some try-out moments with different platforms and websites to make use of API for data scraping. In the end, what I did on our project were: generated a dataset of therapists list with contacts and waiting time estimation, made data visualizations and analysis based on it, made an algorithm to suggest similar therapist, and made a user mock data for data proofing the prediction model of success rate in contacting therapists and how long the users have to wait for the first appointment with one of the therapists.
+
+In retrospect, I had a nice, exciting, and definitely challenging time during the semester with Techlabs. Juggling learning coding, building a prototype for an app, and working full time was not the easiest, but all the ups and downs and the gain make it worth it. I am looking forward to continuing learning, perfecting my skills, and experimenting with other projects in the future.
+
+
