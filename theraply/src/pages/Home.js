@@ -1,8 +1,9 @@
 import React from "react";
+import HomeFiller from "../components/HomeFiller";
 
 function Home() {
     return (
-        <h1>HOME</h1>
+        <HomeFiller />
     );
 }
 

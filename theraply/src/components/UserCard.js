@@ -1,48 +1,40 @@
 import React from 'react';
 import './UserCard.css';
+import ProgressBarApp from "./ProgressBarApp";
 
-const UserCard = ({ userData }) => {
-  return (
-    <div className="card">
-      <div className="card-title">
-        {userData.name.first} {userData.name.last}
-      </div>
-      <div className="card-body">
-        <div className="card-image">
-          <img src={userData.picture.medium} />
+function userCard() {
+    return (
+        <div className="userCard">
+            <div className="card-header">
+                <button>Edit</button>
+            </div>
+            <div className="card-title">
+                <div className="card-image">
+                    <img className="profileImage" src="images/rachel-mcdermott-0fN7Fxv1eWA-unsplash.jpg" alt="" />
+                </div>
+                <div className="userName">
+                    Andrea Rossi
+                </div>
+            </div>
+            <div className="card-body">
+                <div className="userConact">
+                    <h3>Contact Details</h3>
+                    <div className="userPhone">
+                        <p>+491763030303</p>
+                    </div>
+                    <div className="userMail">
+                        <p>andrea@rossi.com</p>
+                    </div>
+                </div>
+                <div className="userProgress">
+                    <h3>Progress Level</h3>
+                    <div className="progressBar">
+                        <ProgressBarApp />
+                    </div>
+                </div>
+            </div>
         </div>
-        <div className="location">
-          <p>{userData.street.name}, {userData.street.number}</p>
-          <p>{userData.postcode}</p>
-          <p>{userData.street.city}</p>
-        </div>
-        <div className="phone">
-          <p>{userData.phone}</p>
-        </div>
-      </div>
-    </div>
-  );
+    );
+}
 
-  // return (
-  //   <div className="container">
-  //     <div className="card-head">
-  //       <button className="editbtn">Edit</button>
-  //     </div>
-  //     <div className="card-img">
-  //       <img src={placeholderImg} className="profileimg" alt="profilepic" />
-  //     </div>
-  //     <div className="card-body">
-  //       <h5 className="user-name">USER X</h5>
-  //       <h5 className="user-contact">Contact Data</h5>
-  //       <h6>Phone</h6>
-  //       <h6>E-Mail</h6>
-  //     </div>
-  //     <div className="process">
-  //       <h5>Process Level</h5>
-  //       <div className="process-bar"></div>
-  //     </div>
-  //   </div>
-  // )
-};
-
-export default UserCard;
+export default userCard;

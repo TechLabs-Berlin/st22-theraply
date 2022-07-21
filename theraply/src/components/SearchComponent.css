@@ -1,0 +1,110 @@
+.scForm {
+    margin: 2rem 2rem 2rem 0;
+    padding: 1.5rem;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 0 28px 4px rgba(0,0,0,0.1 );
+    transition: transform .3s ease;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 28.5%;
+    left: 5%;
+  }
+
+  .scFormContainer h2 {
+    margin: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FF7D34;
+  }
+
+  .scFormContainer .label {
+    margin: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0E0E73;
+}
+
+.scFormContainer input[type="text"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: start;
+    border: 1px solid lightgrey;
+    padding: 12px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.scFormContainer input[type="text"]:focus {
+    border-color: grey;
+}
+
+.distanceSearch {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.languageSearch {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.cbStat {
+    margin-top: 10px;  
+    text-align: left; 
+}
+
+.cbPrivate {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.scbtn {
+    height: 30px;
+    width: 93px;
+    padding: 5px 25px;
+    color: #F8F8FF;
+    background-color: #FF7D34;
+    border: 0;
+    border-radius: 20px 20px 20px 0px;
+    position: absolute;
+    top: 82.5%;
+    left: 11%;
+  }
+  
+.scbtn:hover {
+    cursor: pointer;
+    background-color: #0E0E73;
+  }
+
+.moreOpt {
+    font-size: 12px;
+    text-align: end;
+    position: relative;
+    top: 20%;
+    left: -4.5%;
+}
+
+.moreOpt a {
+    color: #0E0E73;
+    font-weight: 500;
+}
+
+
+.imgMap {
+    width: 550px;
+    height: 550px;
+    margin: 90px 20px;
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    left: 50%;
+}
+

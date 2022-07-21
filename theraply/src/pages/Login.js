@@ -1,14 +1,16 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { useHistory } from "react-router-dom";
 import LoginForm from '../components/LoginForm';
+import UserCard from '../components/UserCard';
+import PrefillForm from '../components/PrefillForm';
 
 function Login() {
   const testUser = {
-    email: "testUser@test.com",
+    email: "andrea@rossi.com",
     password: "test1234"
   }
-  
-  const [user, setUser] = useState({name:"", email:""});
+
+  const [user, setUser] = useState({ name: "", email: "" });
   const [error, setError] = useState("");
 
   const Login = details => {
@@ -27,26 +29,33 @@ function Login() {
 
   const Logout = () => {
     console.log('logoout');
-    setUser({name:"", email:""});
+    setUser({ name: "", email: "" });
   }
 
   const history = useHistory();
-    const Profile = () => {
-        history.push("/profile");
-    }
+  const Profile = () => {
+    history.push("/profile");
+  }
 
   return (
-   <div className='Login'>
-     {(user.email !== '') ? (
-       <div className='Welcome'>
-         <h2>Welcome, <span>{user.name}</span></h2>
-         <button onClick={Logout}>Logout</button>
-         <button onClick={Profile} className='gtprofile'>Go to Profile</button>
-       </div>
-     ) : (
-       <LoginForm Login={Login} error={error}/>
-     )}
-   </div>
+    <div className='Login'>
+      {(user.email !== '') ? (
+        <div className='profilePage'>
+          <div className='Welcome'>
+            <h2>Hello<span>{user.name}</span> Andrea!</h2>
+            <p>You joined in 2022</p>
+          </div>
+          <div className='profilePageBtns'>
+            <button onClick={Logout}>Logout</button>
+          </div>
+          <UserCard />
+          <PrefillForm />
+        </div >
+      ) : (
+        <LoginForm Login={Login} error={error} />
+      )
+      }
+    </div >
   );
 }
 
